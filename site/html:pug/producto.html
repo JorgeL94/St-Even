@@ -1,38 +1,96 @@
 <!DOCTYPE html>
-<html lang="es"></html>
-<head>
-  <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico"/>
-  <link rel="apple-touch-icon" href="../images/favicon.png"/>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=7"/>
-  <link rel="stylesheet" href="../css/mainStEven.css"/>
-</head>
-<body>
-  <div class="mainContent">
-    <div class="breadCumb"></div>
-    <div class="productInformation">
-      <div class="contImage">
-        <div class="imagesProduct">
-          <ul class="slideImageProduct"></ul>
-          <ul class="slideImageProductThumbs"></ul>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="es-es">
+  <head>
+
+    <title><vtex.cmc:productPageTitle /></title>
+    <vtex:metaTags/>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=7"/>
+    
+    <vtex:template id="steven-Favicon" />
+    <vtex:template id="steven-commonStyles" />
+    <vtex:template id="steven-commonScripts" />
+
+  </head>
+  <body>
+    <div class="mainContent">
+      <header>
+
+        <div class="promesaValor">
+          <h3>PIDE ONLINE Y PAGA EN TU HOGAR</h3>
         </div>
-      </div>
-      <div class="contentInfoProducto">
-        <div class="contTags"></div>
-        <div class="contNameProduct"></div>
-        <div class="contDescProduct"></div>
-        <div class="contPrice"></div>
-        <div class="containerSkus">
-          <div class="selectSku"></div><a class="guiaTallasBtn"></a>
+        <!-- SubTemplate: Header Desktop -->
+        <vtex:template id="steven-headerDesk"/>
+        <!-- SubTemplate: Header Mobile -->
+        <vtex:template id="steven-headerMobile"/>
+        
+      </header>
+      <section class="containerContent">
+        <div class="breadCumb">
+          <vtex.cmc:breadCrumb />
         </div>
-        <div class="containerCantidad">
-          <div class="selectionCantidad"></div>
+        <div class="productInformation">
+          <div class="contImage">
+            <div class="imagesProduct">
+              <ul class="slideImageProduct"></ul>
+              <ul class="slideImageProductThumbs"></ul>
+            </div>
+          </div>
+          <div class="contentInfoProducto">
+            <div class="contTags">
+              <div class="discoutProd">
+                <span></span>
+              </div>
+              <div class="tagProd">
+                <vtex.cmc:HightLight/>
+              </div>
+            </div>
+            <div class="contNameProduct">
+              <vtex.cmc:productName/>
+            </div>
+            <div class="contDescProduct"></div>
+            <div class="contPrice">
+              <vtex.cmc:skuPrice/>
+            </div>
+            <div class="containerSkus">
+              <div class="selectSku">
+                <vtex.cmc:skuSelection />
+              </div>
+              <a class="guiaTallasBtn">Guía de tallas</a>
+            </div>
+            <div class="containerCantidad">
+              <div class="control restar"></div>
+              <div class="selectionCantidad">
+                <p>Cantidad: <span class="numberCantidad"></span></p>
+              </div>
+              <div class="control sumar"></div>
+            </div>
+            <div class="contentButton">
+              <div class="buttonContainer">
+                <span class="skuColorError"></span>
+                <span class="skuTallaError"></span>
+                <vtex.cmc:BuyInPage/>
+              </div>
+              <a class="buttonWishList">Lista de deseos</a>
+            </div>
+          </div>
         </div>
-        <div class="contentButton">
-          <div class="buttonContainer"></div><a class="buttonWishList"></a>
+        <div class="contentLook">
+          <div class="infoLook">
+            <h3>COMPLETA <span>TU LOOK</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.</p>
+          </div>
+          <div class="listaLook">
+            <vtex:contentPlaceHolder id="relacionados" />
+          </div>
         </div>
-      </div>
+      </section>
+      <footer>
+        <!--  SubTemplate: Footer-->
+        <vtex:template id="steven-footer" />
+      </footer>
     </div>
-  </div>
-</body>
+    <script src="/arquivos/producto.js"></script>
+  </body>
+</html>

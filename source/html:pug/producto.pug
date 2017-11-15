@@ -1,40 +1,55 @@
 <!DOCTYPE html>
-html(lang="es")
-head
+html(xmlns="http://www.w3.org/1999/xhtml", xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce", lang="es-es")
+	head
+		title
 
-	link(rel="shortcut icon", type="image/x-icon", href="../images/favicon.ico")
-	link(rel="apple-touch-icon", href="../images/favicon.png")
-
-	meta(charset="UTF-8")
-	meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
-	meta(http-equiv="X-UA-Compatible", content="IE=7")
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="IE=7")
 		
-	link(rel="stylesheet", href="../css/mainStEven.css")
-	
-body
-	.mainContent
-		.breadCumb
-		.productInformation
-			.contImage
-				.imagesProduct
-					ul.slideImageProduct
-					ul.slideImageProductThumbs
-			.contentInfoProducto
-				.contTags
-				.contNameProduct
-				.contDescProduct
-				.contPrice
-				.containerSkus
-					.selectSku
-					a.guiaTallasBtn
-				.containerCantidad
-					.selectionCantidad
-				.contentButton
-					.buttonContainer
-					a.buttonWishList
+	body
+		.mainContent
+			header
+				.promesaValor
+					h3 PIDE ONLINE Y PAGA EN TU HOGAR
+				//- SubTemplate: Header Desktop
+
+				//- SubTemplate: Header Mobile
+
+			section.containerContent
+				.breadCumb
+				.productInformation
+					.contImage
+						.imagesProduct
+							ul.slideImageProduct
+							ul.slideImageProductThumbs
+					.contentInfoProducto
+						.contTags
+							.discoutProd
+								span
+							.tagProd
+						.contNameProduct
+						.contDescProduct
+						.contPrice
+						.containerSkus
+							.selectSku
+							a.guiaTallasBtn
+						.containerCantidad
+							.selectionCantidad
+						.contentButton
+							.buttonContainer
+							a.buttonWishList
+				.contentLook
+					.infoLook
+						h3 COMPLETA #[span TU LOOK]
+						p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.
+					.listaLook
+
+
+			footer
 
 
 
 
 
-	
+		

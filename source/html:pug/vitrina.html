@@ -1,0 +1,75 @@
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+
+<div class="productVitrine" id="product_$id" data-idproduct="$id">
+    
+    <script>
+       vtexjs.catalog.getProductWithVariations($id).done(function(product){
+            $(document).ready(function(){
+                FuncionalidadesVitrina.printSkus_BuyVitrine(product);
+            });
+       });
+    </script>
+    
+    <div class="productImage">
+        <div class="innerContentImage">
+            <!--actualización con el descuento-->
+            <div class="tagDescuento" style="display:none">
+                <p class="discount"></p>
+            </div>
+            <div class="tagDestaque">
+                $product.HightLight
+            </div>
+            <a title="$escapedName" class="imageShelf" href="$uri">
+                <figure class="view-image">
+                    $product.GetImageTag(30)
+                </figure>
+            </a>
+        </div>
+    </div>
+    <div class="contVitrineName" itemscope="" itemtype="http://schema.org/Product">
+         <div class="colorContent colorContUp" style="display:none;">
+            <ul class="skuColor">
+            </ul>
+            <span class="skuColorError" style="display:none;"></span>
+        </div>
+        <p class="nameProd" itemprop="name">
+            <a class="linkNameProd" href="$uri" title="Ropa de moda, $escapedName Quarry Jeans" class="imageShelf">$product.Name</a>
+        </p>
+        #if ($product.IsInStock)
+        <div class="prices" itemscope="" itemtype="http://schema.org/Offer">
+            #if ($product.HasBestPrice)
+                <span class="productList">$product.ListPrice</span>
+                <span class="bestPrice" itemprop="price">$product.BestPrice</span>
+                <meta itemprop="priceCurrency" content="COP" />
+            #else
+                <span class="bestPrice" itemprop="price">$product.BestPrice</span>
+                <meta itemprop="priceCurrency" content="COP" />
+            #end
+        </div>
+        #end
+        #if ($product.IsInStock)
+        <div class="contentFastShop">
+            <div class="fastShopImage"></div>
+            <div class="skuSelectShop">
+                <div class="colorContent">
+                    <ul class="skuColor">
+
+                    </ul>
+                </div>
+                <div class="tallaContent">
+                    <ul class="skuTalla">
+                        
+                    </ul>
+                    <span class="skuTallaError" style="display:none;"></span>
+                </div>
+            </div>
+        </div>
+        #end
+    </div>
+    <div class="botonAgregar">
+        <a onclick="">Añadir a tu bolsa</a>
+    </div>
+</div>

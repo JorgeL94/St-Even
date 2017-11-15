@@ -1,0 +1,672 @@
+// HEADER 
+
+ul.ui-autocomplete{
+	display: block !important;
+	// border: 1px solid $grisClaro3;
+	border: none;
+	background-color: rgba($blanco, 0.9);
+	list-style:none;
+	overflow: hidden;
+	width: 60% !important;
+	max-width: 267px;
+	padding: 15px 10px;
+	text-transform: capitalize;
+	position: fixed !important;
+	right: 4.3%;
+	left: inherit !important;
+	z-index: 1 !important;
+    @media screen and (max-width: $breakMobile){
+    	width: 100% !important;
+    	height: 80vh;
+    	max-width: 100%;
+    	overflow-x: hidden !important;
+    	overflow-y: scroll !important;
+    }
+	li{
+		margin-bottom: 15px;
+		float: left;
+		width: 100%;
+		padding: 5px 5px;
+		border-bottom: 1px solid rgba($negro, 0.2);
+		a{
+			@include flex; 
+			cursor: pointer;
+			@include rem(13);
+			font-family: latoLight;
+			&:hover{
+				text-decoration: underline;
+			}
+			img{
+				margin-right: 10px;
+				width: 40px !important;
+				height: 40px !important;
+			}
+		}
+	}
+}
+
+header{
+	.promesaValor{
+		width: 100%;
+		height: 30px;
+		background: $grisOsc2;
+		h3{
+			display: table;
+			margin: 0 auto;
+			position: relative;
+			@include rem(10);
+			color: $blanco;
+			text-align: center;
+			text-transform: uppercase;
+			letter-spacing: 4px;
+			line-height: 30px;
+			@media only screen and (max-width: $breakMobile){
+				letter-spacing: 2px;
+			}
+			&:before,
+			&:after{
+				content: $icomoon-heart;
+				font-family: $iconMoon;
+				color: $rosa;
+				@include rem(9);
+				position: relative;
+			}
+			&:before{
+				margin-right: 15px;
+				@media only screen and (max-width: $breakMobile){
+					margin-right: 5px;
+				}
+			}
+			&:after{
+				margin-left: 15px;
+				@media only screen and (max-width: $breakMobile){
+					margin-left: 5px;
+				}
+			}
+		}	
+	}
+	
+	.contentHeaderDesk{
+		background: $grisClaro;
+		@include box-shadow(0px 2px 5px rgba($negro, 0.3));
+		padding: 0 2.5%;
+		&.headerStikyDesk{
+			width: 100%;
+			z-index: 4;
+			position: fixed;
+			top: 0;
+			// @include flex;
+			// @include wrap(wrap);
+			// @include justify-content(space-between);
+			// @include align-items(center);
+		}
+		@media only screen and (max-width: $breakTablet){
+			display: none;
+		}
+
+		.contFieldDesk{
+			padding: 15px 1.5%;
+			@include flex;
+			@include align-items(center);
+			@include flex-wrap(no-wrap);
+			@include justify-content(space-between);
+			.social-stores{
+				.socialMedia{
+					@include flex;
+					@include align-items(center);
+					p{
+						@include rem(10);
+						color: $negro;
+						letter-spacing: 1.5px;
+						font-weight: 500;
+					}
+					ul.redes{
+						@include flex;
+						@include align-items(center);
+						li{
+							margin: 0 5px;
+							a{
+								i{
+									@include rem(17);
+									color: $grisOsc3;
+									@include transition(all 0.3s ease 0s);
+								}
+								&:hover{
+									i{
+										color: $rosa;
+										font-weight: bold;
+									}
+								}
+							}
+							&:last-child{
+								a{
+									i{
+										@include rem(14);
+									}
+								}
+							}
+						}
+					}
+				}
+
+				.localizador{
+					width: 100%;
+					position: relative;
+					margin-top: 8px;
+					&:before,
+					&:after{
+						font-family: $iconMoon;
+						color: $grisOsc3;
+						position: absolute;
+						top: 50%;
+						@include transform(translateY(-50%))
+					}
+					&:before{
+						content: $icomoon-location;
+						@include rem(13);
+						left: 4%;
+					}
+					&:after{
+						content: $icomoon-next;
+						right: 6%;
+						@include rem(8);
+						font-weight: bold;
+						@include transform(translateY(-50%) rotate(90deg))
+					}
+					select{
+						width: 100%;
+						height: 25px;
+						background: $grisClaro2;
+						@include border-radius(5px);
+						border: none;
+						outline: none;
+						padding: 0 20px;
+
+						@include rem(10);
+						color: $negro;
+						letter-spacing: 1.5px;
+						font-weight: 500;
+					}
+				}	
+
+			}
+			figure.logo{
+				margin: 0;
+				a{
+					display: block;
+					img{
+
+					}
+				}
+			}
+			.pedidos-cart{
+				.datos-cart{
+					@include flex;
+					@include align-items(center);
+					a.btnPedidos{
+						@include flex;
+						@include align-items(center);
+						@include rem(10);
+						color: $negro;
+						letter-spacing: 1.5px;
+						font-weight: 500;
+						@include transition(all 0.3s ease 0s);
+						&:after{
+							content: $icomoon-user;
+							font-family: $iconMoon;
+							@include rem(13);
+							color: $grisOsc3;
+							margin-left: 8px;
+							@include transition(all 0.3s ease 0s);
+						}
+						&:hover{
+							color: $rosa;
+							&:after{
+								color: $rosa;
+							}
+						}
+					}
+					a.btnListaDeseos{
+						@include flex;
+						@include align-items(center);
+						@include rem(10);
+						background: $grisClaro2;
+						padding: 5px 6px;
+						@include border-radius(5px);
+						margin-left: 15px;
+						color: $negro;
+						letter-spacing: 1.5px;
+						font-weight: 500;
+						@include transition(all 0.3s ease 0s);
+						&:after{
+							content: $icomoon-heart;
+							font-family: $iconMoon;
+							@include rem(13);
+							color: $grisOsc3;
+							margin-left: 8px;
+							@include transition(all 0.3s ease 0s);
+						}
+						&:hover{
+							color: $rosa;
+							&:after{
+								color: $rosa;
+							}
+						}
+					}
+					.carrito{
+						margin-left: 15px;
+						.itemsCarrito{
+							a{
+								@include flex;
+								@include align-items(flex-end);
+								i{
+									font-family: $iconMoon;
+									@include rem(18);
+									color: $grisOsc3;
+									@include transition(all 0.3s ease 0s);
+								}
+								p{
+									font-family: 'Montserrat';
+									font-weight: $monserratRegular;
+									color: $grisOsc3;
+									@include rem(15);
+									margin-left: 6px;
+									@include transition(all 0.3s ease 0s);
+								}
+								&:hover{
+									i{
+										color: $rosa;
+									}
+									p{
+										color: $rosa;
+									}
+								}
+							}
+						}
+						.resumenCarrito{
+
+						}
+					}
+				}
+				.contBuscador{
+					position: relative;
+					margin-top: 5px;
+					fieldset.busca{
+						border: none;
+						padding: 0;
+						legend,select,{
+							display: none;
+						}
+						input[type="text"]{
+							display: inline-block;
+							vertical-align: top;
+							background: $grisClaro2;
+							@include border-radius(5px);
+							width: 100%;
+							padding-right: 39px; 
+							height: 33px;
+							border: none;
+							outline:none;
+							box-shadow: none;
+							text-indent: 20px;
+							color: $negro;
+							@include rem(10);
+							letter-spacing: 1.5px; 
+						}
+						label{
+							position: absolute;
+							z-index: 1;
+							right: 10px;
+							top: 50%;
+							@include transform(translate(0, -50%));
+							color: $grisOsc3;
+							font-family: $iconMoon;
+							// speak: none;
+							// font-style: normal;
+							// font-weight: normal;
+							// font-variant: normal;
+							// text-transform: none;
+							// line-height: 1;
+							// -webkit-font-smoothing: antialiased;
+							// -moz-osx-font-smoothing: grayscale;
+							text-indent: -9999px;
+							@include rem(20);
+							cursor: pointer;
+							&:before{
+								content: $icomoon-serch;
+							    display: block;
+							    text-indent: 0;
+							    float: left;
+							}
+						}
+						input[type="button"]{
+							// display: none;
+							border: none;
+							outline: none;
+							position: absolute;
+							right: 0;
+							top: 0px;
+							width: 39px;
+							height: 33px;
+							text-indent: -9999px;
+							background: transparent;
+							overflow: hidden; 
+							cursor: pointer;
+						}
+					}
+				}
+			}
+		}
+		.contMenuDesk{
+			padding: 10px 1.5%;
+			border-top: 1px solid $rosa;
+			ul.menu{
+				@include flex;
+				@include align-items(center);
+				@include justify-content(space-between);
+				
+				// padding: 10px 1%;
+				>li{
+					a{
+						@include rem(13);
+						font-family: $bellefair;
+						color: $negro;
+						letter-spacing: 3px;
+						text-transform: uppercase;
+						@include transition(all 0.3s ease 0s);
+						&:hover{
+							color: $rosa;
+						}
+					}
+				}
+			}
+		}
+	}
+	.contentHeaderMobile{
+		display: none;
+		@media only screen and (max-width: $breakTablet){
+			display: block;
+		}
+		&.headerStikyMob{
+			width: 100%;
+			z-index: 4;
+			position: fixed;
+			top: 0;
+			// @include flex;
+			// @include wrap(wrap);
+			// @include justify-content(space-between);
+			// @include align-items(center);
+		}
+		.contFieldDesk{
+			padding: 15px 1.5%;
+			background: $grisClaro;
+			@include flex;
+			@include align-items(center);
+			@include flex-wrap(no-wrap);
+			@include justify-content(space-between);
+			@include box-shadow(0px 2px 5px rgba($negro, 0.3));
+			&.headerStikyMob{
+				width: 100%;
+				z-index: 4;
+				position: fixed;
+				top: 0;
+				// @include flex;
+				// @include wrap(wrap);
+				// @include justify-content(space-between);
+				// @include align-items(center);
+			}
+			.left{
+				@include flex;
+				@include align-items(center);
+				.btnMenu{
+					width: 20px;
+					height: 15px;
+					margin-right: 25px;
+					position: relative;
+					@media only screen and (max-width: $breakMobile){
+						margin-right: 15px;
+					}
+					span{
+						text-indent: -9999px;
+						width: 100%;
+						height: 3px;
+						background: $grisOsc3;
+						display: block;
+						position: relative;
+						top: 50%;
+						@include transform(translateY(-50%));
+						margin: 0 auto;
+						&:after, &:before{
+							text-indent: 0px;
+							content: '';
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 100%;
+							height: 100%;
+							background-color: inherit;
+							@include transform (translateZ(0));
+							-webkit-backface-visibility: hidden;
+							backface-visibility: hidden;
+							@include transition(all 0.5s ease 0s);
+						}
+						&:before{
+							@include transform-origin (center top);
+							@include transform (translateY(-6px)rotate(0deg));
+						}
+						&:after{
+							@include transform-origin (center bottom);
+							@include transform (translateY(6px)rotate(-0deg));
+						}
+					}
+					&.btnMenuOpenMenu{
+						background-color: transparent;
+						span{
+							background-color: transparent;
+							&:after, &:before{
+								top: 50%;
+								left: 0;
+								right: inherit;
+								background: $grisOsc3;
+							}
+							&:before{
+								@include transform-origin (center center);
+								@include transform (translateY(-50%) rotate(-45deg));
+							}
+							&:after{
+								
+								@include transform-origin (center center);
+								@include transform (translateY(-50%) rotate(45deg));
+							}
+						}
+					}
+				}
+				.btnBuscador{
+					margin-right: 25px;
+					@media only screen and (max-width: $breakMobile){
+						margin-right: 0px;
+					}
+					a{
+						i{
+							@include rem(18);
+							color: $grisOsc3;
+							@include transition(all 0.3s ease 0s);
+						}
+					}
+				}
+				.btnTiendas{
+					a{
+						i{
+							@include rem(18);
+							color: $grisOsc3;
+							@include transition(all 0.3s ease 0s);
+						}
+					}
+				}
+
+			}
+			figure.logo{
+				margin: 0;
+				a{
+					display: block;
+					img{
+						width: 220px;
+						@media only screen and (max-width: $breakMobile){
+							width: 140px;
+
+						}
+					}
+				}
+			}
+			.right{
+				@include flex;
+				@include align-items(center);
+				@media only screen and (max-width: $breakMobile){
+					.btnTiendas{
+						margin-right: 15px;
+						a{
+							i{
+								@include rem(18);
+								color: $grisOsc3;
+								@include transition(all 0.3s ease 0s);
+							}
+						}
+					}
+				}
+				.btnPedidos{ 
+					margin-right: 25px;
+					@media only screen and (max-width: $breakMobile){
+						display: none;
+					}
+					a{
+						i{
+							@include rem(18);
+							color: $grisOsc3;
+							@include transition(all 0.3s ease 0s);
+						}
+					}
+				}
+				.btnListaDeseos{
+					margin-right: 25px;
+					@media only screen and (max-width: $breakMobile){
+						display: none;
+					}
+					a{
+						i{
+							@include rem(18);
+							color: $grisOsc3;
+							@include transition(all 0.3s ease 0s);
+						}
+					}
+				}
+				.carrito{
+					.itemsCarrito{
+						a{
+							@include flex;
+							@include align-items(flex-end);
+							i{
+								font-family: $iconMoon;
+								@include rem(18);
+								color: $grisOsc3;
+								@include transition(all 0.3s ease 0s);
+							}
+							p{
+								font-family: 'Montserrat';
+								font-weight: $monserratRegular;
+								color: $grisOsc3;
+								@include rem(15);
+								margin-left: 6px;
+								@include transition(all 0.3s ease 0s);
+							}
+							&:hover{
+								i{
+									color: $rosa;
+								}
+								p{
+									color: $rosa;
+								}
+							}
+						}
+					}
+				}
+				
+			}
+		}
+		.contMenuMobile{
+			display: none;
+		}
+		.contBuscador{
+			position: relative;
+			margin-top: 5px;
+			width: 100%;
+			display: none;
+
+			fieldset.busca{
+				border: none;
+				padding: 0;
+				legend,select,{
+					display: none;
+				}
+				input[type="text"]{
+					display: inline-block;
+					vertical-align: top;
+					background: $grisClaro2;
+					// @include border-radius(5px);
+					width: 100%;
+					padding-right: 39px; 
+					height: 33px;
+					border: none;
+					outline:none;
+					box-shadow: none;
+					text-indent: 20px;
+					color: $negro;
+					@include rem(10);
+					letter-spacing: 1.5px; 
+				}
+				label{
+					position: absolute;
+					z-index: 1;
+					right: 10px;
+					top: 50%;
+					@include transform(translate(0, -50%));
+					color: $grisOsc3;
+					font-family: $iconMoon;
+					// speak: none;
+					// font-style: normal;
+					// font-weight: normal;
+					// font-variant: normal;
+					// text-transform: none;
+					// line-height: 1;
+					// -webkit-font-smoothing: antialiased;
+					// -moz-osx-font-smoothing: grayscale;
+					text-indent: -9999px;
+					@include rem(20);
+					cursor: pointer;
+					&:before{
+						content: $icomoon-serch;
+					    display: block;
+					    text-indent: 0;
+					    float: left;
+					}
+				}
+				input[type="button"]{
+					// display: none;
+					border: none;
+					outline: none;
+					position: absolute;
+					right: 0;
+					top: 0px;
+					width: 39px;
+					height: 33px;
+					text-indent: -9999px;
+					background: transparent;
+					overflow: hidden; 
+					cursor: pointer;
+				}
+			}
+		}
+	}
+
+
+
+}

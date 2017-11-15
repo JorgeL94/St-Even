@@ -1,0 +1,23 @@
+#ajaxBusy{
+	display: none !important;
+}
+
+.mainContent{
+	max-width: 1900px;
+	margin: 0 auto;
+	.containerContent{
+		&.contenidoStiky{
+			padding: 129px 0 0;
+			@media screen and (max-width: $breakTablet){
+				padding: 68px 0 0;
+			}
+			@media screen and (max-width: $breakMobile){
+				padding: 54px 0 0;
+			}
+		}
+	}
+}
+
+// --------------------------------------------------------------------------------------------------------------------------
+
+// VITRINAS

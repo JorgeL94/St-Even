@@ -80,6 +80,14 @@ $browser-context: 16; // Default
   transform:$tipoTransformacion;
 }
 
+@mixin transform-origin($tipoTransformacion){
+  -webkit-box-transform-origin:$tipoTransformacion;
+  -webkit-transform-origin:$tipoTransformacion;
+  -moz-transform-origin:$tipoTransformacion;
+  -o-transform-origin:$tipoTransformacion;
+  transform-origin:$tipoTransformacion;
+}
+
 @mixin flex{
 	display: -webkit-box;
 	display: -moz-box;

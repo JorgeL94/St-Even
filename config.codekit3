@@ -9,12 +9,6 @@
 	],
 "creatorBuild": "25900",
 "files": {
-	"\/prepros-6.config": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/site\/prepros-6.config",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -39,6 +33,276 @@
 		"oAP": "\/site\/site",
 		"oF": 0
 		},
+	"\/source\/css\/fonts\/Bellefair-Regular.ttf.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Bellefair-Regular.ttf-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Bellefair-Regular.woff.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Bellefair-Regular.woff-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/icomoon.eot.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/icomoon.eot-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/icomoon.svg.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/icomoon.svg-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/icomoon.ttf.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/icomoon.ttf-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/icomoon.woff.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/icomoon.woff-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Black.eot.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Black.eot-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Black.ttf.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Black.ttf-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Black.woff.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Black.woff-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Bold.eot.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Bold.eot-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Bold.ttf.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Bold.ttf-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Bold.woff.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Bold.woff-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Light.eot.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Light.eot-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Light.ttf.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Light.ttf-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Light.woff.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Light.woff-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Medium.eot.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Medium.eot-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Medium.ttf.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Medium.ttf-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Medium.woff.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Medium.woff-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Regular.eot.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Regular.eot-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Regular.ttf.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Regular.ttf-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Regular.woff.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Regular.woff-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Semibold.eot.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Semibold.eot-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Semibold.ttf.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Semibold.ttf-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/Lato-Semibold.woff.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/Lato-Semibold.woff-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/SourceSansPro-Regular.eot.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/SourceSansPro-Regular.eot-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/SourceSansPro-Regular.ttf.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/SourceSansPro-Regular.ttf-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/source\/css\/fonts\/SourceSansPro-Regular.woff.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/css\/fonts\/SourceSansPro-Regular.woff-min.css",
+		"oF": 1,
+		"oS": 3
+		},
 	"\/source\/html:pug\/footer.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -47,11 +311,19 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/source\/html:pug\/header.pug": {
+	"\/source\/html:pug\/headerDesk.pug": {
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/site\/html:pug\/header.html",
+		"oAP": "\/site\/html:pug\/headerDesk.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/html:pug\/headerMobile.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/site\/html:pug\/headerMobile.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -62,6 +334,96 @@
 		"oAP": "\/site\/html:pug\/producto.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/source\/html:pug\/vitrina.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/html:pug\/vitrina.html",
+		"oF": 0
+		},
+	"\/source\/images\/logo.png": {
+		"ft": 32768,
+		"iS": 2070,
+		"oA": 0,
+		"oAP": "\/site\/images\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/source\/js\/detectarMobile.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/site\/js\/detectarMobile.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/source\/js\/general.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/site\/js\/general.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/source\/js\/mobile-detect.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/site\/js\/mobile-detect.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/source\/js\/producto.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/site\/js\/producto.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/source\/js\/slick.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/site\/js\/slick.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/source\/js\/vtex-smartResearch.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/site\/js\/vtex-smartResearch.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/source\/scss\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/site\/css\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/source\/scss\/_fuentes.scss": {
 		"aP": 0,
@@ -76,6 +438,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/scss\/_general.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/site\/css\/_general.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/scss\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/site\/css\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/scss\/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -85,6 +473,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/site\/css\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/scss\/_producto.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/site\/css\/_producto.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -127,6 +528,172 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/source\/webFont\/Bellefair-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Bellefair-Regular.ttf",
+		"oF": 0
+		},
+	"\/source\/webFont\/Bellefair-Regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Bellefair-Regular.woff",
+		"oF": 0
+		},
+	"\/source\/webFont\/icomoon.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/icomoon.eot",
+		"oF": 0
+		},
+	"\/source\/webFont\/icomoon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/icomoon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/webFont\/icomoon.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/icomoon.ttf",
+		"oF": 0
+		},
+	"\/source\/webFont\/icomoon.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/icomoon.woff",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Black.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Black.eot",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Black.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Black.ttf",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Black.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Black.woff",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Bold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Bold.eot",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Bold.ttf",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Bold.woff",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Light.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Light.eot",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Light.ttf",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Light.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Light.woff",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Medium.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Medium.eot",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Medium.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Medium.ttf",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Medium.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Medium.woff",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Regular.eot",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Regular.ttf",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Regular.woff",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Semibold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Semibold.eot",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Semibold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Semibold.ttf",
+		"oF": 0
+		},
+	"\/source\/webFont\/Lato-Semibold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/Lato-Semibold.woff",
+		"oF": 0
+		},
+	"\/source\/webFont\/SourceSansPro-Regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/SourceSansPro-Regular.eot",
+		"oF": 0
+		},
+	"\/source\/webFont\/SourceSansPro-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/SourceSansPro-Regular.ttf",
+		"oF": 0
+		},
+	"\/source\/webFont\/SourceSansPro-Regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/webFont\/SourceSansPro-Regular.woff",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -1937,14 +2504,14 @@
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathFilenamePattern": "*.js",
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"minifyOutput": 1,
-		"syntaxCheckerStyle": 3,
+		"minifyOutput": 0,
+		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
